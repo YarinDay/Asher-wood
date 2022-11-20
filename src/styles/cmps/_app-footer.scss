@@ -1,0 +1,47 @@
+.main-footer-container {
+    background-color: #353535;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .contact-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        p {
+            color: white;
+            text-align: right;
+            margin: 0 6px 0 0;
+        }
+
+        a {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: white;
+            width: 100px;
+            text-decoration: none;
+            width: auto;
+
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .phone-call-footer {
+            color: white;
+            width: 160px;
+        }
+    }
+}

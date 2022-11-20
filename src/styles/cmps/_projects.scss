@@ -1,0 +1,23 @@
+.carousel2 {
+
+    .carousel2-img-container {
+        height: 100%;
+
+        img {
+            // height: 900px;
+            height: 78vh;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .carousel2 {
+        .carousel2-img-container {
+            img {
+                height: 500px;
+                object-fit: cover;
+            }
+        }
+    }
+}

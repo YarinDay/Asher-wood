@@ -1,0 +1,15 @@
+// Basics
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/base";
+
+// Components
+@import "cmps/home-page";
+@import "cmps/app-footer";
+@import "cmps/app-header";
+@import "cmps/projects";
+@import "cmps/review-preview";
+@import "cmps/review-list";
+
+//setup
+@import "setup/typography"

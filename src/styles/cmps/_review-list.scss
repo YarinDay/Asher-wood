@@ -1,0 +1,53 @@
+.review-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.slide {
+
+    // min-width: 50%;
+    .selected {
+        height: 500px;
+        width: 300px;
+    }
+}
+
+.carousel1 {
+    max-width: 80%;
+
+    .thumbs-wrapper {
+        display: none;
+    }
+
+    .slider {
+        align-items: center;
+
+        >*:not(.selected) {
+            opacity: .9;
+        }
+
+        .selected {
+            opacity: 1;
+            z-index: 30;
+            zoom: 130%;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .carousel1 {
+        .slider {
+            li {
+                min-width: 100%;
+            }
+
+            .selected {
+                width: 100%;
+                height: 100%;
+                zoom: 130%;
+            }
+        }
+    }
+}

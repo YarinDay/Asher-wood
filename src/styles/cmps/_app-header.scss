@@ -1,0 +1,75 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #353535;
+
+    .toggle-nav {
+        display: none;
+    }
+
+    .nav-bar-container {
+        display: flex;
+
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            height: 80px;
+            width: 100px;
+            text-decoration: none;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .phone-call {
+            width: 160px
+        }
+
+        a:hover {
+            color: rgb(212, 212, 212);
+            box-shadow: 0 0 .25rem rgba(212, 212, 212);
+        }
+
+        // .isActive {
+        //     margin-top: -2px;
+        //     border-bottom: 2px #fff solid;
+        // }
+
+    }
+}
+
+@media (max-width: 760px) {
+    .app-header {
+
+        .toggle-nav {
+            display: block;
+        }
+
+        .nav-bar-container {
+            position: fixed;
+            align-items: center;
+            left: 0;
+            background-color: #292929;
+            flex-direction: column;
+            width: 100%;
+            top: 40px;
+            z-index: 99;
+            transform: translateY(-120%);
+            transition: transform .7s;
+        }
+
+        .open {
+            transform: translate(0);
+            transition: transform .6s;
+        }
+
+        .main-logo {
+            width: 72px;
+        }
+    }
+}

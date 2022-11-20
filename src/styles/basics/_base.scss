@@ -1,0 +1,29 @@
+html {
+    // font-family: web-font, open-sans, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 1.3rem;
+    // font-family: web-font, open-sans, sans-serif;
+}
+
+.app-home {
+    min-height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: default;
+    width: 125px;
+
+    img {
+        width: 100%;
+    }
+}
