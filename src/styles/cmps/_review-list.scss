@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 50px;
+    z-index: -1;
 }
 
 .slide {
@@ -15,7 +16,6 @@
 }
 
 .carousel1 {
-    max-width: 80%;
 
     .thumbs-wrapper {
         display: none;
@@ -38,6 +38,7 @@
 
 @media (max-width: 760px) {
     .carousel1 {
+        max-width: 130%;
         .slider {
             li {
                 min-width: 100%;

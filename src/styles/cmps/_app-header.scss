@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-between;
     background-color: #353535;
+    position: fixed;
+    width: 100%;
+
+    .main-logo {
+        cursor: pointer;
+    }
 
     .toggle-nav {
         display: none;
@@ -9,7 +15,12 @@
 
     .nav-bar-container {
         display: flex;
+        width: 480px;
+        justify-content: flex-end;
 
+        .icon{
+            width: 70px;
+        }
 
         a {
             display: flex;
@@ -27,7 +38,7 @@
         }
 
         .phone-call {
-            width: 160px
+            min-width: 170px
         }
 
         a:hover {
@@ -48,6 +59,10 @@
 
         .toggle-nav {
             display: block;
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            border: none;
         }
 
         .nav-bar-container {
@@ -58,7 +73,7 @@
             flex-direction: column;
             width: 100%;
             top: 40px;
-            z-index: 99;
+            z-index: 40;
             transform: translateY(-120%);
             transition: transform .7s;
         }

@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fdc86267.css",
+    "main.js": "/static/js/main.e632612b.js",
+    "static/media/headline-bg.jpg": "/static/media/headline-bg.33fe4c500f9ef038e956.jpg",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/wood-background.jpg": "/static/media/wood-background.d402c51ef0be32f15d29.jpg",
+    "static/media/home13.jpg": "/static/media/home13.03921c89bd815b32466b.jpg",
+    "static/media/home11.jpg": "/static/media/home11.f1a3ebd79eb0e6183e77.jpg",
+    "static/media/home1.jpg": "/static/media/home1.0f14327a9e60324f8a2f.jpg",
+    "static/media/home8.jpg": "/static/media/home8.34736b0e353d46ca219c.jpg",
+    "static/media/home2.jpg": "/static/media/home2.d0cf1aa2cff06743ebf5.jpg",
+    "static/media/home9.jpg": "/static/media/home9.0f8e9daeec72159cdbc3.jpg",
+    "static/media/home6.jpg": "/static/media/home6.df38e40d80d046b0b538.jpg",
+    "static/media/home3.jpg": "/static/media/home3.765d08076cd9849cec56.jpg",
+    "static/media/home5.jpg": "/static/media/home5.cbec777e646786eed4b3.jpg",
+    "static/media/home4.jpg": "/static/media/home4.436112f463108aa5493f.jpg",
+    "static/media/home7.jpg": "/static/media/home7.8226a6cb6231312d9f06.jpg",
+    "static/media/home12.jpg": "/static/media/home12.56e4d1ac848f0cb59ac1.jpg",
+    "static/media/home10.jpg": "/static/media/home10.04d7a382edd0fba7f552.jpg",
+    "static/media/google-maps.png": "/static/media/google-maps.507a6beb2eceda8612d8.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.205f3fea6e78b912d2a1.png",
+    "static/media/phone-call.png": "/static/media/phone-call.04d22b9a3e96b276d462.png",
+    "static/media/AY-logo.webp": "/static/media/AY-logo.3304b9aa009d545b64be.webp",
+    "index.html": "/index.html",
+    "main.fdc86267.css.map": "/static/css/main.fdc86267.css.map",
+    "main.e632612b.js.map": "/static/js/main.e632612b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdc86267.css",
+    "static/js/main.e632612b.js"
+  ]
+}

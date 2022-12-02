@@ -1,0 +1,21 @@
+.about-text {
+    margin-top: 40px;
+    direction: rtl;
+    font-size: 1rem;
+    padding: 20px;
+    color: white;
+    span {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: 760px) {
+    .about-text {
+        font-size: 2rem;
+    }
+
+    .about-text {
+        margin-top: 80px;
+    }
+}

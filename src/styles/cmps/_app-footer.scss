@@ -41,7 +41,15 @@
 
         .phone-call-footer {
             color: white;
-            width: 160px;
+            min-width: 170px;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .main-footer-container{
+        a{
+            font-size: 1rem;
         }
     }
 }
