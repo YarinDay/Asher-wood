@@ -2,7 +2,7 @@ import React from 'react'
 import reviews from "../data/reviews.json"
 import { ReviewList } from '../cmps/review-list'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import proj from '../assets/img/home8.jpg'
+import proj from '../assets/img/home15.jpg'
 import headlineBg from '../assets/img/headline-bg.jpg'
 export function HomePage() {
 

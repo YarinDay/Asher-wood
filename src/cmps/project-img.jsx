@@ -13,9 +13,11 @@ import home10 from '../assets/img/home10.jpg'
 import home11 from '../assets/img/home11.jpg'
 import home12 from '../assets/img/home12.jpg'
 import home13 from '../assets/img/home13.jpg'
+import home14 from '../assets/img/home14.jpg'
+import home15 from '../assets/img/home15.jpg'
 
 export const ProjectImg = () => {
-    const projImgs = [home1, home2, home3, home4, home5, home6, home7, home8, home9, home10, home11, home12, home13]
+    const projImgs = [home1, home3, home4, home5, home6, home7, home8, home9, home10, home11, home12, home13, home14, home15]
     return (
         <div>
             {/* <Carousel className='carousel2'> */}
