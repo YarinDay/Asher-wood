@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { ReviewPreview } from './review-preview'
-import woodBgc from '../assets/img/wood-background.jpg'
+import woodBgc from '../assets/img/headline-bg.jpg'
 import { Carousel } from 'react-responsive-carousel';
 
 export const ReviewList = ({ reviews }) => {

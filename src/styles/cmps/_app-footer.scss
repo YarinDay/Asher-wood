@@ -2,10 +2,14 @@
     background-color: #353535;
     height: 200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 20px;
+
+    .main-logo {
+        width: 200px;
+    }
 
     .contact-container {
         display: flex;
@@ -15,6 +19,7 @@
     div {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 20px;
 
         p {
@@ -47,8 +52,23 @@
 }
 
 @media (max-width: 760px) {
-    .main-footer-container{
-        a{
+    .main-footer-container {
+        padding-bottom: 20px;
+        .main-logo {
+            width: 100px;
+        }
+        .contact-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .contact-container-main {
+                flex-direction: row;
+            }
+        }
+
+        a {
             font-size: 1rem;
         }
     }
