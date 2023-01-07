@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import whatsapp from "../assets/img/whatsapp.png"
 import googleMaps from "../assets/img/google-maps.png"
 import phoneCall from "../assets/img/phone-call.png"
-import AYLogo from "../assets/img/logo/high-res/logo-transparent.png"
+import AYLogo from "../assets/img/logo/high-res/logo-transparent-new.png"
 // import AYLogo from "../assets/img/AY-logo.webp"
 
 export function AppHeader({ scrollTop }) {

@@ -2,7 +2,7 @@
 import React from 'react'
 import phoneCall from "../assets/img/phone-call.png"
 import googleMaps from "../assets/img/google-maps.png"
-import AYLogo from "../assets/img/logo/high-res/logo-transparent.png"
+import AYLogo from "../assets/img/logo/high-res/logo-transparent-new.png"
 // import AYLogo from "../assets/img/AY-logo.webp"
 
 export class AppFooter extends React.Component {
