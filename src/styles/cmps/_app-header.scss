@@ -7,9 +7,8 @@
 
     .main-logo {
         cursor: pointer;
-        position: fixed;
-        left: 50%;
-        transform: translate(-50%, 10%);
+        min-width: 72px;
+        max-width: 100px;
     }
 
     .toggle-nav {
@@ -20,6 +19,7 @@
         display: flex;
         width: 480px;
         justify-content: flex-end;
+        align-items: center;
 
         .icon {
             width: 70px;
@@ -51,8 +51,25 @@
     }
 }
 
+@media (max-width: 880px) {
+    .app-header {
+        font-size: 1rem;
+
+        .nav-bar-container {
+            a {
+                width: 80px;
+            }
+
+            .phone-call {
+                min-width: 150px
+            }
+        }
+    }
+}
+
 @media (max-width: 760px) {
     .app-header {
+        font-size: 1.3rem;
 
         .main-logo {
             position: unset;
@@ -70,6 +87,7 @@
             border: none;
         }
 
+
         .nav-bar-container {
             position: fixed;
             align-items: center;
@@ -81,6 +99,14 @@
             z-index: 40;
             transform: translateY(-120%);
             transition: transform .7s;
+
+            a {
+                width: 100px;
+            }
+
+            .phone-call {
+                min-width: 170px
+            }
         }
 
         .open {
