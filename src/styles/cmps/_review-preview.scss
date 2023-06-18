@@ -1,15 +1,13 @@
 .review-preview{
-    background-color: rgb(225, 223, 223);
+    background-color: rgba(254, 254, 254, 0.717);
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    // min-width: 400px;
     gap: 20px;
     width: auto;
-    // width: 400px;
     height: 10rem;
     p{
         margin: 0;
